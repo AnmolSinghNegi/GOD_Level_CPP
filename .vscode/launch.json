@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/anmolsinghnegi/Desktop/CP/GOD_Level_CPP/Basics",
-      "program": "/Users/anmolsinghnegi/Desktop/CP/GOD_Level_CPP/Basics/build/Debug/outDebug"
+      "cwd": ".",
+      "program": "build/Debug/outDebug"
     }
   ]
 }
