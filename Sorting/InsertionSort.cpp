@@ -4,16 +4,16 @@ using namespace std;
 int main()
 {
     int arr[]={8,6,9,4,2};
-    //Selection sort
+    //Insertion sort
     int n = sizeof(arr)/sizeof(arr[0]);
-    for(int i=0;i<n-1;i++){
-        int k=i;
-        for(int j=i;j<n;j++){
-            if(arr[k]>arr[j]){
-                k=j;
-            }
+    for(int i=1;i<n;i++){
+        int w=i-1;
+        int key =arr[i];
+        while(w>=0&&arr[w]>key){
+            arr[w+1]=arr[w];
+            w--;
         }
-        swap(arr[i],arr[k]);
+        arr[w+1]=key;
     }
     for(int i =0;i<n;i++){
         cout<<arr[i]<<" ";
