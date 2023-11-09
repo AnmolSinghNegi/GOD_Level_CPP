@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/anmolsinghnegi/Desktop/CP/GOD_Level_CPP/Graphs",
-      "program": "/Users/anmolsinghnegi/Desktop/CP/GOD_Level_CPP/Graphs/build/Debug/outDebug"
+      "cwd": ".",
+      "program": "build/Debug/outDebug"
     }
   ]
 }
